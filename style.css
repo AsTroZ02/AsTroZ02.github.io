@@ -117,7 +117,7 @@ footer {
 
     nav ul li {
         margin: 10px 0;
-    }
+ }
     body {
     margin: 0;
     padding: 0;
@@ -128,4 +128,55 @@ footer {
     background-attachment: fixed; /* Optional: keeps the image fixed while scrolling */
     color: #fff; /* Optional: to ensure text is readable on the image */
     }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px;
+    position: relative;
+}
+
+.header-toggle {
+    background: #444;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#nav-menu {
+    display: none; /* Hidden by default */
+    background: #333;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+}
+
+#nav-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#nav-menu ul li {
+    border-bottom: 1px solid #444;
+}
+
+#nav-menu ul li a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#nav-menu ul li a:hover {
+    background: #555;
+ }
 }
