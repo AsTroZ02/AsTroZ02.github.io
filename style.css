@@ -122,7 +122,7 @@ footer {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-image: url('path/to/your-background-image.jpg');
+    background-image: url('black.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Optional: keeps the image fixed while scrolling */
