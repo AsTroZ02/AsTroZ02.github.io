@@ -10,3 +10,13 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+function toggleMenu() {
+    // Add functionality to open/close the menu
+    const menu = document.querySelector('nav ul'); // Assuming the menu is a <ul> inside a <nav>
+    if (menu.style.display === 'block') {
+        menu.style.display = 'none';
+    } else {
+        menu.style.display = 'block';
+    }
+}
