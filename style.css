@@ -136,32 +136,6 @@ header {
     text-align: center;
 }
 
-#nav-menu {
-    display: none; /* Hidden by default */
-    background: #333;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-}
-
-#nav-menu ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-#nav-menu ul li {
-    border-bottom: 1px solid #444;
-}
-
-#nav-menu ul li a {
-    display: block;
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-}
-
 #nav-menu ul li a:hover {
     background: #555;
  }
